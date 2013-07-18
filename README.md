@@ -10,11 +10,11 @@ Um simulador de cidade onde você joga tanto quanto o gestor quanto o cidadão a
 
 ## Documento de Design
 
-  * [[http://piratepad.net/mategame]]
+  * http://piratepad.net/mategame
 
 ## Reuniões
 
-  * 15 de Julho: [[http://piratepad.net/mategame-chat-log]]
+  * 15 de Julho: http://piratepad.net/mategame-chat-log
 
 ## Tarefas
 
