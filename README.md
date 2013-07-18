@@ -19,7 +19,7 @@ Um simulador de cidade onde você joga tanto quanto o gestor quanto o cidadão a
 ## Tarefas
 
   * Construir telas de exemplo
-  * Construir projeto vazio da MelonJS
+  * Construir projeto vazio da MelonJS (assets [aqui](http://sweetasscloud.lfzawacki.com/public.php?service=files&t=da6b35a052f5ba4c441fa090dac1bd5a) )
   * Testar assets de cidade do Simutrans
   * Procurar sprites para os personagens
 
