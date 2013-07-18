@@ -23,4 +23,7 @@ Um simulador de cidade onde você joga tanto quanto o gestor quanto o cidadão a
   * Testar assets de cidade do Simutrans
   * Procurar sprites para os personagens
 
+### Para rodar
 
+  * apt-get install lighttpd
+  * lighttpd -D -f lighttpd.conf
