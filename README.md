@@ -25,5 +25,7 @@ Um simulador de cidade onde você joga tanto quanto o gestor quanto o cidadão a
 
 ### Para rodar
 
+  * Baixar [os assets](http://sweetasscloud.lfzawacki.com/public.php?service=files&t=da6b35a052f5ba4c441fa090dac1bd5a) e jogar na mesma pasta
   * apt-get install lighttpd
   * lighttpd -D -f lighttpd.conf
+  * No browser porta 3000
