@@ -1,58 +1,36 @@
 <!DOCTYPE html>
 <html><head>
-  <title>melonJS</title>
-  <meta name="description" content="melonJS homepage">
-  <meta name="keywords" content="melonJS, HTML5, javascript, game, engine, framework">
+  <title>simate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <meta name="description" content="Simulation game">
+  <meta name="keywords" content="melonJS, HTML5, javascript, game, simulation">
   <meta http-equiv="content-type" content="text/html; charset=windows-1252">
-  <link rel="stylesheet" type="text/css" href="melonJS_arquivos/style.css" title="style">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 
 <body>
-  <div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="http://www.melonjs.org/">melon<span class="logo_colour">JS</span></a></h1>
-          <h2>A lightweight HTML5 game engine</h2>
-        </div>
-      </div>
-     </div>
-    <div id="site_content">
-		<center>
-		<div id="content">
-			<h2>melonJS game creation tutorial</h2>
-			<p>The final result of a step by step tutorial, showing how to create a game with melonJS, see <a href="http://melonjs.github.io/tutorial/index.html">here</a> for more details.<br>
-			 </p><p>Additional Credits :<br>
-			 - <a href="http://www.spicypixel.net/2008/01/10/gfxlib-fuzed-a-free-developer-graphic-library/">SpicyPixel.NET</a> for the GfxLib-Fuzed assets<br>
-			 - <a href="http://www.nosoapradio.us/">noSaopRadio</a> for the ingame music<br>
-			</p><div id="screen"><canvas height="480" width="640"></canvas></div>
-				<script type="text/javascript" src="melonJS_arquivos/melonJS-0.js"></script>
-				<script type="text/javascript" src="melonJS_arquivos/debugPanel.js"></script>
+  <center>
+  <div id="screen">
+    <script type="text/javascript" src="src/melonJS-0.js"></script>
+    <script type="text/javascript" src="src/debugPanel.js"></script>
 
-				<script type="text/javascript" src="melonJS_arquivos/game.js"></script>
-				<script type="text/javascript" src="melonJS_arquivos/resources.js"></script>
+    <script type="text/javascript" src="src/game.js"></script>
+    <script type="text/javascript" src="src/resources.js"></script>
 
-				<script type="text/javascript" src="melonJS_arquivos/entities.js"></script>
-				
-				<script type="text/javascript" src="melonJS_arquivos/title.js"></script>
-				<script type="text/javascript" src="melonJS_arquivos/play.js"></script>
+    <script type="text/javascript" src="src/entities.js"></script>
+    
+    <script type="text/javascript" src="src/title.js"></script>
+    <script type="text/javascript" src="src/play.js"></script>
 
-				<script type="text/javascript">
-					/* Bootstrap */
-					window.onReady(function onReady() {
-						game.onload();
-					});
-				</script>
-				<p>instructions : arrow keys to move, X to jump</p>
-			</div>
-		</center>
-    </div>
-    <div id="content_footer"></div>
-    <div id="footer">
-      Copyright © melonJS 2011 - 2013
-    </div>
+    <script type="text/javascript">
+      /* Bootstrap */
+      window.onReady(function onReady() {
+        game.onload();
+      });
+    </script>
   </div>
-
+  </center>
 
 </body></html>
