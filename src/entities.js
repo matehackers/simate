@@ -33,7 +33,6 @@ game.PlayerEntity = me.ObjectEntity.extend(
 	  ------			*/
 	update : function ()
 	{
-			
 		if (me.input.isKeyPressed('left'))
 		{
 			// flip the sprite on horizontal axis

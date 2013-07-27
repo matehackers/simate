@@ -51,7 +51,7 @@ game.TitleScreen = me.ScreenObject.extend({
 	// update function
 	update : function() {
 		// enter pressed ?
-		if (me.input.isKeyPressed('enter'))
+		if (me.input.isKeyPressed(config.keys.confirm))
 		{
 			me.state.change(me.state.PLAY);
 		}
