@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="20" tileheight="16">
+ <tileset firstgid="1" name="pixel city" tilewidth="20" tileheight="16">
+  <image source="../pixel city.png" trans="ff00ff" width="400" height="448"/>
+ </tileset>
+ <layer name="Layer3" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzrERwCAMBEHhHnD/jeEeoAIrJlFGwOzOXPbBRwAAAAAAAAAA3K9lT7EZ2XfgCxE9e4vNzNaBLwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALsfZggDzQ==
+  </data>
+ </layer>
+ <layer name="Layer2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0UsNwlAYhNHbBXjgpQHQAGgotVg8gDWGTSXwN7nnJN9+kmkNAAAAAAAA+rJJ2+oRLHZpXz2iU3N6VY9g8U6f6hEAAPBHh6G1YzoN1Uv4OeeHS7r6YxVu+eGeHv5YhTE/PNPkDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6MoXaQIF1Q==
+  </data>
+ </layer>
+ <layer name="Layer1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1zlPFFAYRuHhB6CAdkLBTocUKFsHFGyKbDIa2fcARhYXRIISNtmEzg2Gf8pp6AjFDMmdcM+TnPbmTb7qJhKSJEmSJN0ulx7QQ8qjfCqgR/Q44K5YFVMJlVIZlVMFVVJVwF2xqqVn9JzqqJ4aqJGaAu6KVRu1Uwd1Uhe9oJfUneabg5SkN/T2DjbG5B0N0TCN0CiN0ThNpPnmPC3QIr3PfGJUPtASLdMKrdJH+kSf03xzk77TD9rKfGJUtmmHdmmP9uknHdBhwF2x+k1/6C/9o/90TheUCjdLkqQbHeYkEkc5oVfoWopbXHoPSbrXXlEP9VIf9dNA0EVxm6QpmqYZmqW5oIvi9oXW6Cut0zfaCLoobkd0TCf0i07pLOgiZeoJf41CKvLPkRWqucNTqvEeWaGZO7RQq/fICq+5wyAlvYckSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSbqHrgBiHiqJ
+  </data>
+ </layer>
+</map>

@@ -29,3 +29,9 @@ Um simulador de cidade onde você joga tanto quanto o gestor quanto o cidadão a
   * apt-get install lighttpd
   * lighttpd -D -f lighttpd.conf
   * No browser porta 3000
+
+#### OU
+
+    gnome-open index.html --allow-file-access-from-files
+    firefox index.html --allow-file-access-from-files
+    chromium-browser index.html --allow-file-access-from-files
