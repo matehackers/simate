@@ -20,7 +20,7 @@ game.TitleScreen = me.ScreenObject.extend({
     onResetEvent : function() {
         if (this.title == null) {
             // init stuff if not yet done
-            this.title = me.loader.getImage("title_screen");
+            this.title = me.loader.getImage("2_lados_title_screen");
             // font to display the menu items
             this.font = new me.BitmapFont("32x32_font", 32);
             

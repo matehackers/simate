@@ -12,6 +12,7 @@ game.resources = [
     {name: "32x32_font",          type:"image",    src: "data/img/font/32x32_font.png"},
     // title screen
     {name: "title_screen",        type:"image",    src: "data/img/gui/title_screen.png"},
+    {name: "2_lados_title_screen",        type:"image",    src: "data/img/gui/2_lados_title.png"},
     // the parallax background
     {name: "area01_bkg0",         type:"image",    src: "data/img/area01_bkg0.png"},
     {name: "area01_bkg1",         type:"image",    src: "data/img/area01_bkg1.png"},
