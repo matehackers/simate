@@ -92,14 +92,10 @@ var game = {
        me.entityPool.add("EnemyEntity", game.EnemyEntity);
 
        // enable the keyboard
-//       me.input.bindKey(me.input.KEY.LEFT,      "left");
-//       me.input.bindKey(me.input.KEY.RIGHT, "right");
-//       me.input.bindKey(me.input.KEY.X,      "jump", true);
-		for (k in config.keys)
-		{
-			me.input.bindKey(config.keys[k],k);
-		}
-		me.input.bindMouse(me.input.mouse.LEFT, config.keys.confirm);
+         for (k in config.keys)
+             me.input.bindKey(config.keys[k], k);
+
+         me.input.bindMouse(me.input.mouse.LEFT, config.keys.confirm);
 
        // start the game
        me.state.change(me.state.MENU);
