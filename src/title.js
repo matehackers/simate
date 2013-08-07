@@ -10,7 +10,7 @@ game.TitleScreen = me.ScreenObject.extend({
         this.scrollerfont  = null;
         this.scrollertween = null;
 
-        this.scroller = "// (RE)CONHECIMENTO ";
+        this.scroller = "// BUSQUE (RE)CONHECIMENTO //";
         this.scrollerpos = 600;
     },
 
@@ -23,9 +23,9 @@ game.TitleScreen = me.ScreenObject.extend({
             this.title = me.loader.getImage("2_lados_title_screen");
             // font to display the menu items
             this.font = new me.BitmapFont("font_white", 16);
-            
+
             // set the scroller
-            this.scrollerfont = new me.BitmapFont("font_white", 16);                    
+            this.scrollerfont = new me.BitmapFont("font_white", 16);
         }
         // reset to default value
         this.scrollerpos = 200;
@@ -36,20 +36,21 @@ game.TitleScreen = me.ScreenObject.extend({
         me.input.bindKey(config.keys.confirm, "confirm", true);
 
         // play something
-        me.audio.play("cling");
+        me.audio.playTrack("opening");
     },
 
     // some callback for the tween objects
     scrollover : function() {
         // reset to default value
         this.scrollerpos = 640;
-        this.scrollertween.to({scrollerpos: -2200 }, 10000).onComplete(this.scrollover.bind(this)).start();
+        this.scrollertween.to({scrollerpos: -400 }, 10000).onComplete(this.scrollover.bind(this)).start();
     },
 
     // update function
     update : function() {
         if (me.input.isKeyPressed("confirm"))
         {
+            me.audio.play("cling");
             me.state.change(me.state.PLAY);
         }
         return true;
@@ -59,7 +60,7 @@ game.TitleScreen = me.ScreenObject.extend({
     draw : function(context) {
         context.drawImage(this.title, 0,0);
 
-        this.font.draw (context, "APERTE ENTER PARA JOGAR",     20, 300);
+        this.font.draw (context, "CLIQUE/TOQUE/APERTE ENTER PARA JOGAR",     20, 320);
         this.scrollerfont.draw(context, this.scroller, this.scrollerpos, 440);
     },
 
@@ -69,5 +70,6 @@ game.TitleScreen = me.ScreenObject.extend({
     onDestroyEvent : function() {
         //just in case
         this.scrollertween.stop();
+        me.audio.stopTrack();
    }
 });

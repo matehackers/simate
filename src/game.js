@@ -84,7 +84,7 @@ var game = {
        me.state.set(me.state.PLAY, new game.PlayScreen());
 
        // set a global fading transition for the screen
-       me.state.transition("fade", "#FFFFFF", 250);
+       me.state.transition("fade", "#000000", 250);
 
        // add our player entity in the entity pool
        // me.entityPool.add("mainPlayer", game.PlayerEntity);

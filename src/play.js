@@ -8,7 +8,7 @@ game.PlayScreen = me.ScreenObject.extend({
         me.levelDirector.loadLevel("city");
 
         // add a default HUD to the game mngr
-        // me.game.addHUD(0,430,640,60);
+        // me.game.addHUD(0, 430, 640, 60);
 
         // add a new HUD item
         // me.game.HUD.addItem("score", new game.ScoreObject(620,10));
@@ -17,7 +17,7 @@ game.PlayScreen = me.ScreenObject.extend({
         me.game.sort();
 
         // play the audio track
-        // me.audio.playTrack("DST-InertExponent");
+        me.audio.playTrack("city1");
     },
 
     /**
@@ -28,6 +28,6 @@ game.PlayScreen = me.ScreenObject.extend({
         // me.game.disableHUD();
 
         // stop the current audio track
-        // me.audio.stopTrack();
+        me.audio.stopTrack();
     }
 });

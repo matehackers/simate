@@ -19,6 +19,7 @@ game.resources = [
     {name: "street_grass",        type:"image",    src: "data/street_grass.png"},
     {name: "pixel city",          type:"image",    src: "data/pixel city.png"},
     {name: "grass",               type:"image",    src: "data/grass.png"},
+    {name: "grass2",               type:"image",    src: "data/grass2.png"},
 
     /*
      * Maps.
@@ -28,7 +29,8 @@ game.resources = [
     /* 
      * Load the music.
      */
-    // {name: "dst-inertexponent", type: "audio", src: "data/bgm/", channel : 1},
+    {name: "city1", type: "audio", src: "data/bgm/", channel : 1},
+    {name: "opening", type: "audio", src: "data/bgm/", channel : 1},
 
     /* 
      * Sound effects.
