@@ -6,11 +6,11 @@ game.TitleScreen = me.ScreenObject.extend({
 
         // title screen image
         this.title         = null;
-        this.font          =  null;
-        this.scrollerfont  =  null;
+        this.font          = null;
+        this.scrollerfont  = null;
         this.scrollertween = null;
 
-        this.scroller = "A SMALL STEP BY STEP TUTORIAL FOR GAME CREATION WITH MELONJS       ";
+        this.scroller = "// (RE)CONHECIMENTO ";
         this.scrollerpos = 600;
     },
 
@@ -22,16 +22,16 @@ game.TitleScreen = me.ScreenObject.extend({
             // init stuff if not yet done
             this.title = me.loader.getImage("2_lados_title_screen");
             // font to display the menu items
-            this.font = new me.BitmapFont("32x32_font", 32);
+            this.font = new me.BitmapFont("font_white", 16);
             
             // set the scroller
-            this.scrollerfont = new me.BitmapFont("32x32_font", 32);                    
+            this.scrollerfont = new me.BitmapFont("font_white", 16);                    
         }
         // reset to default value
-        this.scrollerpos = 640;
+        this.scrollerpos = 200;
 
         // a tween to animate the arrow
-        this.scrollertween = new me.Tween(this).to({scrollerpos: -2200 }, 10000).onComplete(this.scrollover.bind(this)).start();
+        this.scrollertween = new me.Tween(this).to({scrollerpos: -2200 }, 10).onComplete(this.scrollover.bind(this)).start();
 
         me.input.bindKey(config.keys.confirm, "confirm", true);
 
@@ -59,7 +59,7 @@ game.TitleScreen = me.ScreenObject.extend({
     draw : function(context) {
         context.drawImage(this.title, 0,0);
 
-        this.font.draw (context, "PRESS ENTER TO PLAY",     20, 340);
+        this.font.draw (context, "APERTE ENTER PARA JOGAR",     20, 300);
         this.scrollerfont.draw(context, this.scroller, this.scrollerpos, 440);
     },
 

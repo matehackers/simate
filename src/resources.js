@@ -9,9 +9,8 @@ game.resources = [
     // {name: "spinning_coin_gold",  type:"image",    src: "data/img/sprite/spinning_coin_gold.png"},
     // // our enemty entity
     // {name: "wheelie_right",       type:"image",    src: "data/img/sprite/wheelie_right.png"},
-    // // game font
-    {name: "32x32_font",          type:"image",    src: "data/img/font/32x32_font.png"},
-
+    // game font
+    {name: "font_white",          type:"image",    src: "data/img/font/font_white.gif"},
     // title screen
     {name: "2_lados_title_screen",        type:"image",    src: "data/img/gui/2_lados_title.png"},
 
