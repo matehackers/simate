@@ -59,7 +59,7 @@ game.TitleScreen = me.ScreenObject.extend({
     draw : function(context) {
         context.drawImage(this.title, 0,0);
 
-        this.font.draw (context, "PRESS ENTER TO PLAY",     20, 240);
+        this.font.draw (context, "PRESS ENTER TO PLAY",     20, 340);
         this.scrollerfont.draw(context, this.scroller, this.scrollerpos, 440);
     },
 
@@ -67,7 +67,6 @@ game.TitleScreen = me.ScreenObject.extend({
      *  action to perform when leaving this screen (state change)
      */
     onDestroyEvent : function() {
-        me.input.unbindKey(me.input.KEY.ENTER);
         //just in case
         this.scrollertween.stop();
    }

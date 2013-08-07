@@ -5,19 +5,19 @@ game.PlayScreen = me.ScreenObject.extend({
      */
     onResetEvent: function() {
         // load a level
-        me.levelDirector.loadLevel("area01");
+        me.levelDirector.loadLevel("city");
 
         // add a default HUD to the game mngr
-        me.game.addHUD(0,430,640,60);
+        // me.game.addHUD(0,430,640,60);
 
         // add a new HUD item
-        me.game.HUD.addItem("score", new game.ScoreObject(620,10));
+        // me.game.HUD.addItem("score", new game.ScoreObject(620,10));
 
         // make sure everyhting is in the right order
         me.game.sort();
 
         // play the audio track
-        me.audio.playTrack("DST-InertExponent");
+        // me.audio.playTrack("DST-InertExponent");
     },
 
     /**
@@ -25,9 +25,9 @@ game.PlayScreen = me.ScreenObject.extend({
      */
     onDestroyEvent: function() {
         // remove the HUD
-        me.game.disableHUD();
+        // me.game.disableHUD();
 
         // stop the current audio track
-        me.audio.stopTrack();
+        // me.audio.stopTrack();
     }
 });
