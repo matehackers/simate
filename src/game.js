@@ -86,10 +86,10 @@ var game = {
        // set a global fading transition for the screen
        me.state.transition("fade", "#000000", 250);
 
-       // add our player entity in the entity pool
-       // me.entityPool.add("mainPlayer", game.PlayerEntity);
-       // me.entityPool.add("CoinEntity", game.CoinEntity);
-       // me.entityPool.add("EnemyEntity", game.EnemyEntity);
+       me.entityPool.add("city1", game.CityEntity);
+       me.entityPool.add("city2", game.CityEntity);
+       me.entityPool.add("city3", game.CityEntity);
+       me.entityPool.add("city4", game.CityEntity);
 
        // enable the keyboard
          for (k in config.keys)

@@ -22,10 +22,10 @@ game.TitleScreen = me.ScreenObject.extend({
             // init stuff if not yet done
             this.title = me.loader.getImage("2_lados_title_screen");
             // font to display the menu items
-            this.font = new me.BitmapFont("font_white", 16);
+            this.font = new me.BitmapFont(config.fonts.medium, 16);
 
             // set the scroller
-            this.scrollerfont = new me.BitmapFont("font_white", 16);
+            this.scrollerfont = new me.BitmapFont(config.fonts.medium, 16);
         }
         // reset to default value
         this.scrollerpos = 200;

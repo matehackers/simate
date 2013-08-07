@@ -3,14 +3,14 @@ game.resources = [
      * Graphics.
      */
 
+    {name: "city_small",        type:"image",    src: "data/city_small.png"},
+    {name: "city_medium",       type:"image",    src: "data/city_medium.png"},
+    {name: "city_big",          type:"image",    src: "data/city_big.png"},
+
     // the main player spritesheet
-    // {name: "gripe_run_right",     type:"image",    src: "data/img/sprite/gripe_run_right.png"},
-    // // the spinning coin spritesheet
-    // {name: "spinning_coin_gold",  type:"image",    src: "data/img/sprite/spinning_coin_gold.png"},
-    // // our enemty entity
-    // {name: "wheelie_right",       type:"image",    src: "data/img/sprite/wheelie_right.png"},
     // game font
     {name: "font_white",          type:"image",    src: "data/img/font/font_white.gif"},
+    {name: "font_white_small",     type:"image",    src: "data/img/font/font_white_small.png"},
     // title screen
     {name: "2_lados_title_screen",        type:"image",    src: "data/img/gui/2_lados_title.png"},
 
