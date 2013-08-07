@@ -9,9 +9,8 @@ game.resources = [
     // our enemty entity
     {name: "wheelie_right",       type:"image",    src: "data/img/sprite/wheelie_right.png"},
     // game font
-    {name: "32x32_font",          type:"image",    src: "data/img/font/32x32_font.png"},
+    {name: "font_white",          type:"image",    src: "data/img/font/font_white.gif"},
     // title screen
-    {name: "title_screen",        type:"image",    src: "data/img/gui/title_screen.png"},
     {name: "2_lados_title_screen",        type:"image",    src: "data/img/gui/2_lados_title.png"},
     // the parallax background
     {name: "area01_bkg0",         type:"image",    src: "data/img/area01_bkg0.png"},
