@@ -19,7 +19,8 @@ game.resources = [
     {name: "street_grass",        type:"image",    src: "data/street_grass.png"},
     {name: "pixel city",          type:"image",    src: "data/pixel city.png"},
     {name: "grass",               type:"image",    src: "data/grass.png"},
-    {name: "grass2",               type:"image",    src: "data/grass2.png"},
+    {name: "grass2",              type:"image",    src: "data/grass2.png"},
+    {name: "ui",                  type:"image",    src: "data/img/gui/ui3.png"},
 
     /*
      * Maps.
