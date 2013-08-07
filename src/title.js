@@ -67,7 +67,6 @@ game.TitleScreen = me.ScreenObject.extend({
      *  action to perform when leaving this screen (state change)
      */
     onDestroyEvent : function() {
-        me.input.unbindKey(me.input.KEY.ENTER);
         //just in case
         this.scrollertween.stop();
    }

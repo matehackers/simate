@@ -87,9 +87,9 @@ var game = {
        me.state.transition("fade", "#FFFFFF", 250);
 
        // add our player entity in the entity pool
-       me.entityPool.add("mainPlayer", game.PlayerEntity);
-       me.entityPool.add("CoinEntity", game.CoinEntity);
-       me.entityPool.add("EnemyEntity", game.EnemyEntity);
+       // me.entityPool.add("mainPlayer", game.PlayerEntity);
+       // me.entityPool.add("CoinEntity", game.CoinEntity);
+       // me.entityPool.add("EnemyEntity", game.EnemyEntity);
 
        // enable the keyboard
          for (k in config.keys)
